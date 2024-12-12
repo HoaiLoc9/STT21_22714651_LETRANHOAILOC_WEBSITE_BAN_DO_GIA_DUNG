@@ -57,8 +57,10 @@ function dangky() {
 
     // Lưu vào Local Storage
     saveToLocalStorage(username, email, phone, password);
+
+    // Hiển thị thông báo và tự động chuyển hướng
     alert('Đăng ký thành công và thông tin đã được lưu!');
-    window.location.href = '../../html/home.html';
+    
 }
 
 function saveToLocalStorage(username, email, phone, password) {
